@@ -27,8 +27,7 @@
 
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
-	// New comment
-	die;
+	echo 'Not allowed to access this page!';
 }
 
 /**
